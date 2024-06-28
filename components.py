@@ -30,14 +30,18 @@ class Node:
         return self.__str__()
 
 class Channel:
-    def __init__(self, id: int, nodes: List[Node], dist=stats.expon) -> None:
+    def __init__(self, id: int, nodes: List[Node], dist=stats.expon, per_user=True) -> None:
         self.id = id
         self.nodes = nodes
         self.dist = dist
+        self.per_user = per_user
         self.gains: Dict[Node, float] = self.generate_gains()
 
     def generate_gains(self) -> Dict[Node, float]:
-        return {node: self.dist.rvs() for node in self.nodes}
+        if self.per_user:
+            return {node: self.dist.rvs() for node in self.nodes}
+        gains = self.dist.rvs()
+        return {node: gains for node in self.nodes}
 
     def __str__(self) -> str:
         return f"Channel(id={self.id}, gains={self.gains})"
@@ -46,13 +50,14 @@ class Channel:
         return self.__str__()
 
 class Network:
-    def __init__(self, num_nodes=10):
+    def __init__(self, num_nodes=10, per_user=True):
         self.num_nodes = num_nodes
+        self.per_user  = per_user
         self.reset()
 
     def reset(self):
         self.nodes    = [Node(i) for i in range(self.num_nodes)]
-        self.channels = [Channel(i, self.nodes) for i in range(self.num_nodes)]
+        self.channels = [Channel(i, self.nodes, per_user=self.per_user) for i in range(self.num_nodes)]
 
     def harvesting_slot(self):
         for channel in self.channels:
