@@ -150,6 +150,7 @@ class OptimalSellingMechanism(Protocol):
         v = self.value(node, channels)
         return v - (1 - self.cdf(v, node, len(channels))) / self.pdf(v, node, len(channels))
     
+    # In effect, the one with the highest value will be the winner
     def q(self, Nodes: List[Node], channels: List[Channel]) -> Optional[int]:
         C = [self.c(node, channels) for node in Nodes]
         if max(C) < 0:
