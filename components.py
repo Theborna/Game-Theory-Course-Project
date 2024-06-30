@@ -39,7 +39,8 @@ class Channel:
 
     def generate_gains(self) -> Dict[Node, float]:
         if self.per_user:
-            return {node: self.dist.rvs() for node in self.nodes}
+            gains = self.dist.rvs(size=len(self.nodes))
+            return {node: gains[i] for i, node in enumerate(self.nodes)}
         gains = self.dist.rvs()
         return {node: gains for node in self.nodes}
 
@@ -61,8 +62,9 @@ class Network:
 
     def harvesting_slot(self):
         for channel in self.channels:
-            for node in self.nodes:
-                node.harvest_energy()
+            energies = self.nodes[0].dist.rvs(size=self.num_nodes)
+            for i, node in enumerate(self.nodes):
+                node.energy = energies[i]
             channel.gains = channel.generate_gains()
             
     def sending_slot(self, protocol) -> int:

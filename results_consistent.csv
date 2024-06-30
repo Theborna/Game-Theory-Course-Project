@@ -1,127 +1,127 @@
 ,Input Rate,Throughput,Method
 0,0.0,0.0,One-to-One Stable Matching (Node)
-1,0.5,0.484,One-to-One Stable Matching (Node)
-2,1.0,0.889,One-to-One Stable Matching (Node)
-3,1.5,1.207,One-to-One Stable Matching (Node)
-4,2.0,1.55,One-to-One Stable Matching (Node)
-5,2.5,1.786,One-to-One Stable Matching (Node)
-6,3.0,2.016,One-to-One Stable Matching (Node)
-7,3.5,2.176,One-to-One Stable Matching (Node)
-8,4.0,2.341,One-to-One Stable Matching (Node)
-9,4.5,2.516,One-to-One Stable Matching (Node)
-10,5.0,2.652,One-to-One Stable Matching (Node)
-11,5.5,2.718,One-to-One Stable Matching (Node)
-12,6.0,2.807,One-to-One Stable Matching (Node)
-13,6.5,2.931,One-to-One Stable Matching (Node)
-14,7.0,2.932,One-to-One Stable Matching (Node)
-15,7.5,2.962,One-to-One Stable Matching (Node)
-16,8.0,3.071,One-to-One Stable Matching (Node)
-17,8.5,3.085,One-to-One Stable Matching (Node)
-18,9.0,3.154,One-to-One Stable Matching (Node)
-19,9.5,3.187,One-to-One Stable Matching (Node)
-20,10.0,3.251,One-to-One Stable Matching (Node)
+1,0.5,0.49416666666666664,One-to-One Stable Matching (Node)
+2,1.0,0.88375,One-to-One Stable Matching (Node)
+3,1.5,1.2216666666666667,One-to-One Stable Matching (Node)
+4,2.0,1.5633333333333332,One-to-One Stable Matching (Node)
+5,2.5,1.82,One-to-One Stable Matching (Node)
+6,3.0,2.0216666666666665,One-to-One Stable Matching (Node)
+7,3.5,2.18125,One-to-One Stable Matching (Node)
+8,4.0,2.3225,One-to-One Stable Matching (Node)
+9,4.5,2.4475,One-to-One Stable Matching (Node)
+10,5.0,2.611666666666667,One-to-One Stable Matching (Node)
+11,5.5,2.754583333333333,One-to-One Stable Matching (Node)
+12,6.0,2.79375,One-to-One Stable Matching (Node)
+13,6.5,2.84875,One-to-One Stable Matching (Node)
+14,7.0,2.933333333333333,One-to-One Stable Matching (Node)
+15,7.5,2.9758333333333336,One-to-One Stable Matching (Node)
+16,8.0,3.0375,One-to-One Stable Matching (Node)
+17,8.5,3.0966666666666667,One-to-One Stable Matching (Node)
+18,9.0,3.142916666666667,One-to-One Stable Matching (Node)
+19,9.5,3.214583333333333,One-to-One Stable Matching (Node)
+20,10.0,3.2041666666666666,One-to-One Stable Matching (Node)
 21,0.0,0.0,One-to-One Stable Matching (Channel)
-22,0.5,0.486,One-to-One Stable Matching (Channel)
-23,1.0,0.867,One-to-One Stable Matching (Channel)
-24,1.5,1.217,One-to-One Stable Matching (Channel)
-25,2.0,1.475,One-to-One Stable Matching (Channel)
-26,2.5,1.786,One-to-One Stable Matching (Channel)
-27,3.0,1.934,One-to-One Stable Matching (Channel)
-28,3.5,2.212,One-to-One Stable Matching (Channel)
-29,4.0,2.29,One-to-One Stable Matching (Channel)
-30,4.5,2.42,One-to-One Stable Matching (Channel)
-31,5.0,2.533,One-to-One Stable Matching (Channel)
-32,5.5,2.68,One-to-One Stable Matching (Channel)
-33,6.0,2.751,One-to-One Stable Matching (Channel)
-34,6.5,2.82,One-to-One Stable Matching (Channel)
-35,7.0,2.919,One-to-One Stable Matching (Channel)
-36,7.5,2.994,One-to-One Stable Matching (Channel)
-37,8.0,3.074,One-to-One Stable Matching (Channel)
-38,8.5,3.065,One-to-One Stable Matching (Channel)
-39,9.0,3.094,One-to-One Stable Matching (Channel)
-40,9.5,3.176,One-to-One Stable Matching (Channel)
-41,10.0,3.229,One-to-One Stable Matching (Channel)
+22,0.5,0.4716666666666667,One-to-One Stable Matching (Channel)
+23,1.0,0.89375,One-to-One Stable Matching (Channel)
+24,1.5,1.2075,One-to-One Stable Matching (Channel)
+25,2.0,1.5279166666666666,One-to-One Stable Matching (Channel)
+26,2.5,1.7095833333333332,One-to-One Stable Matching (Channel)
+27,3.0,1.9316666666666666,One-to-One Stable Matching (Channel)
+28,3.5,2.1166666666666667,One-to-One Stable Matching (Channel)
+29,4.0,2.3254166666666665,One-to-One Stable Matching (Channel)
+30,4.5,2.43625,One-to-One Stable Matching (Channel)
+31,5.0,2.5816666666666666,One-to-One Stable Matching (Channel)
+32,5.5,2.6633333333333336,One-to-One Stable Matching (Channel)
+33,6.0,2.7483333333333335,One-to-One Stable Matching (Channel)
+34,6.5,2.868333333333333,One-to-One Stable Matching (Channel)
+35,7.0,2.9158333333333335,One-to-One Stable Matching (Channel)
+36,7.5,2.9225,One-to-One Stable Matching (Channel)
+37,8.0,3.0383333333333336,One-to-One Stable Matching (Channel)
+38,8.5,3.0545833333333334,One-to-One Stable Matching (Channel)
+39,9.0,3.0866666666666664,One-to-One Stable Matching (Channel)
+40,9.5,3.1133333333333333,One-to-One Stable Matching (Channel)
+41,10.0,3.14125,One-to-One Stable Matching (Channel)
 42,0.0,0.0,One-to-Many Stable Matching
-43,0.5,0.503,One-to-Many Stable Matching
-44,1.0,0.944,One-to-Many Stable Matching
-45,1.5,1.258,One-to-Many Stable Matching
-46,2.0,1.621,One-to-Many Stable Matching
-47,2.5,1.895,One-to-Many Stable Matching
-48,3.0,2.139,One-to-Many Stable Matching
-49,3.5,2.478,One-to-Many Stable Matching
-50,4.0,2.701,One-to-Many Stable Matching
-51,4.5,2.929,One-to-Many Stable Matching
-52,5.0,3.041,One-to-Many Stable Matching
-53,5.5,3.218,One-to-Many Stable Matching
-54,6.0,3.303,One-to-Many Stable Matching
-55,6.5,3.506,One-to-Many Stable Matching
-56,7.0,3.677,One-to-Many Stable Matching
-57,7.5,3.807,One-to-Many Stable Matching
-58,8.0,3.837,One-to-Many Stable Matching
-59,8.5,3.969,One-to-Many Stable Matching
-60,9.0,4.108,One-to-Many Stable Matching
-61,9.5,4.198,One-to-Many Stable Matching
-62,10.0,4.243,One-to-Many Stable Matching
+43,0.5,0.4875,One-to-Many Stable Matching
+44,1.0,0.9170833333333334,One-to-Many Stable Matching
+45,1.5,1.26375,One-to-Many Stable Matching
+46,2.0,1.6008333333333333,One-to-Many Stable Matching
+47,2.5,1.9266666666666667,One-to-Many Stable Matching
+48,3.0,2.1845833333333333,One-to-Many Stable Matching
+49,3.5,2.422083333333333,One-to-Many Stable Matching
+50,4.0,2.6329166666666666,One-to-Many Stable Matching
+51,4.5,2.8375,One-to-Many Stable Matching
+52,5.0,3.0883333333333334,One-to-Many Stable Matching
+53,5.5,3.2004166666666665,One-to-Many Stable Matching
+54,6.0,3.3216666666666668,One-to-Many Stable Matching
+55,6.5,3.455416666666667,One-to-Many Stable Matching
+56,7.0,3.62375,One-to-Many Stable Matching
+57,7.5,3.79375,One-to-Many Stable Matching
+58,8.0,3.8291666666666666,One-to-Many Stable Matching
+59,8.5,3.92625,One-to-Many Stable Matching
+60,9.0,4.05375,One-to-Many Stable Matching
+61,9.5,4.139166666666667,One-to-Many Stable Matching
+62,10.0,4.229583333333333,One-to-Many Stable Matching
 63,0.0,0.0,Optimal Selling Mechanism (Energy)
-64,0.5,0.447,Optimal Selling Mechanism (Energy)
-65,1.0,0.843,Optimal Selling Mechanism (Energy)
-66,1.5,1.167,Optimal Selling Mechanism (Energy)
-67,2.0,1.482,Optimal Selling Mechanism (Energy)
-68,2.5,1.708,Optimal Selling Mechanism (Energy)
-69,3.0,1.91,Optimal Selling Mechanism (Energy)
-70,3.5,2.131,Optimal Selling Mechanism (Energy)
-71,4.0,2.197,Optimal Selling Mechanism (Energy)
-72,4.5,2.453,Optimal Selling Mechanism (Energy)
-73,5.0,2.529,Optimal Selling Mechanism (Energy)
-74,5.5,2.665,Optimal Selling Mechanism (Energy)
-75,6.0,2.761,Optimal Selling Mechanism (Energy)
-76,6.5,2.861,Optimal Selling Mechanism (Energy)
-77,7.0,2.967,Optimal Selling Mechanism (Energy)
-78,7.5,3.076,Optimal Selling Mechanism (Energy)
-79,8.0,3.112,Optimal Selling Mechanism (Energy)
-80,8.5,3.184,Optimal Selling Mechanism (Energy)
-81,9.0,3.286,Optimal Selling Mechanism (Energy)
-82,9.5,3.337,Optimal Selling Mechanism (Energy)
-83,10.0,3.403,Optimal Selling Mechanism (Energy)
+64,0.5,0.46458333333333335,Optimal Selling Mechanism (Energy)
+65,1.0,0.8545833333333334,Optimal Selling Mechanism (Energy)
+66,1.5,1.18875,Optimal Selling Mechanism (Energy)
+67,2.0,1.4583333333333333,Optimal Selling Mechanism (Energy)
+68,2.5,1.6770833333333333,Optimal Selling Mechanism (Energy)
+69,3.0,1.8633333333333333,Optimal Selling Mechanism (Energy)
+70,3.5,2.0508333333333333,Optimal Selling Mechanism (Energy)
+71,4.0,2.2354166666666666,Optimal Selling Mechanism (Energy)
+72,4.5,2.365,Optimal Selling Mechanism (Energy)
+73,5.0,2.5433333333333334,Optimal Selling Mechanism (Energy)
+74,5.5,2.692083333333333,Optimal Selling Mechanism (Energy)
+75,6.0,2.7616666666666667,Optimal Selling Mechanism (Energy)
+76,6.5,2.8641666666666667,Optimal Selling Mechanism (Energy)
+77,7.0,2.9625,Optimal Selling Mechanism (Energy)
+78,7.5,3.0566666666666666,Optimal Selling Mechanism (Energy)
+79,8.0,3.1470833333333332,Optimal Selling Mechanism (Energy)
+80,8.5,3.2329166666666667,Optimal Selling Mechanism (Energy)
+81,9.0,3.3004166666666666,Optimal Selling Mechanism (Energy)
+82,9.5,3.3354166666666667,Optimal Selling Mechanism (Energy)
+83,10.0,3.41125,Optimal Selling Mechanism (Energy)
 84,0.0,0.0,Optimal Selling Mechanism (Probability)
-85,0.5,0.455,Optimal Selling Mechanism (Probability)
-86,1.0,0.882,Optimal Selling Mechanism (Probability)
-87,1.5,1.278,Optimal Selling Mechanism (Probability)
-88,2.0,1.616,Optimal Selling Mechanism (Probability)
-89,2.5,1.941,Optimal Selling Mechanism (Probability)
-90,3.0,2.174,Optimal Selling Mechanism (Probability)
-91,3.5,2.485,Optimal Selling Mechanism (Probability)
-92,4.0,2.722,Optimal Selling Mechanism (Probability)
-93,4.5,2.81,Optimal Selling Mechanism (Probability)
-94,5.0,3.096,Optimal Selling Mechanism (Probability)
-95,5.5,3.281,Optimal Selling Mechanism (Probability)
-96,6.0,3.501,Optimal Selling Mechanism (Probability)
-97,6.5,3.724,Optimal Selling Mechanism (Probability)
-98,7.0,3.796,Optimal Selling Mechanism (Probability)
-99,7.5,3.966,Optimal Selling Mechanism (Probability)
-100,8.0,4.091,Optimal Selling Mechanism (Probability)
-101,8.5,4.206,Optimal Selling Mechanism (Probability)
-102,9.0,4.329,Optimal Selling Mechanism (Probability)
-103,9.5,4.465,Optimal Selling Mechanism (Probability)
-104,10.0,4.632,Optimal Selling Mechanism (Probability)
-105,0.0,0.0,Random Matching (Theory)
-106,0.5,0.125,Random Matching (Theory)
-107,1.0,0.25,Random Matching (Theory)
-108,1.5,0.375,Random Matching (Theory)
-109,2.0,0.5,Random Matching (Theory)
-110,2.5,0.625,Random Matching (Theory)
-111,3.0,0.75,Random Matching (Theory)
-112,3.5,0.875,Random Matching (Theory)
-113,4.0,1.0,Random Matching (Theory)
-114,4.5,1.125,Random Matching (Theory)
-115,5.0,1.25,Random Matching (Theory)
-116,5.5,1.375,Random Matching (Theory)
-117,6.0,1.5,Random Matching (Theory)
-118,6.5,1.625,Random Matching (Theory)
-119,7.0,1.75,Random Matching (Theory)
-120,7.5,1.875,Random Matching (Theory)
-121,8.0,2.0,Random Matching (Theory)
-122,8.5,2.125,Random Matching (Theory)
-123,9.0,2.25,Random Matching (Theory)
-124,9.5,2.375,Random Matching (Theory)
-125,10.0,2.5,Random Matching (Theory)
+85,0.5,0.4658333333333333,Optimal Selling Mechanism (Probability)
+86,1.0,0.8941666666666667,Optimal Selling Mechanism (Probability)
+87,1.5,1.2320833333333334,Optimal Selling Mechanism (Probability)
+88,2.0,1.5745833333333332,Optimal Selling Mechanism (Probability)
+89,2.5,1.9295833333333334,Optimal Selling Mechanism (Probability)
+90,3.0,2.1970833333333335,Optimal Selling Mechanism (Probability)
+91,3.5,2.4883333333333333,Optimal Selling Mechanism (Probability)
+92,4.0,2.7016666666666667,Optimal Selling Mechanism (Probability)
+93,4.5,2.9425,Optimal Selling Mechanism (Probability)
+94,5.0,3.1020833333333333,Optimal Selling Mechanism (Probability)
+95,5.5,3.3108333333333335,Optimal Selling Mechanism (Probability)
+96,6.0,3.4654166666666666,Optimal Selling Mechanism (Probability)
+97,6.5,3.69375,Optimal Selling Mechanism (Probability)
+98,7.0,3.785,Optimal Selling Mechanism (Probability)
+99,7.5,3.890833333333333,Optimal Selling Mechanism (Probability)
+100,8.0,4.064166666666667,Optimal Selling Mechanism (Probability)
+101,8.5,4.240833333333334,Optimal Selling Mechanism (Probability)
+102,9.0,4.373333333333333,Optimal Selling Mechanism (Probability)
+103,9.5,4.395,Optimal Selling Mechanism (Probability)
+104,10.0,4.5275,Optimal Selling Mechanism (Probability)
+105,0.0,0.0,Random Access
+106,0.5,0.41458333333333336,Random Access
+107,1.0,0.7775,Random Access
+108,1.5,1.0425,Random Access
+109,2.0,1.2691666666666668,Random Access
+110,2.5,1.4654166666666666,Random Access
+111,3.0,1.5654166666666667,Random Access
+112,3.5,1.6941666666666666,Random Access
+113,4.0,1.8291666666666666,Random Access
+114,4.5,1.9191666666666667,Random Access
+115,5.0,1.9983333333333333,Random Access
+116,5.5,2.087083333333333,Random Access
+117,6.0,2.152083333333333,Random Access
+118,6.5,2.1866666666666665,Random Access
+119,7.0,2.2608333333333333,Random Access
+120,7.5,2.3183333333333334,Random Access
+121,8.0,2.3158333333333334,Random Access
+122,8.5,2.4145833333333333,Random Access
+123,9.0,2.455,Random Access
+124,9.5,2.4975,Random Access
+125,10.0,2.4791666666666665,Random Access

@@ -7,6 +7,15 @@ class Protocol:
     def execute(self, nodes: List[Node], channels: List[Channel]) -> int:
         raise NotImplementedError("Must be implemented by subclass")
 
+class RandomAccessProtocol(Protocol):
+    def execute(self, nodes: List[Node], channels: List[Channel]) -> int:
+        success = 0
+        for node in nodes:
+            if channels:  # Ensure there are channels available
+                channel = random.choice(channels)
+                success += node.send_data(channel.gains[node])
+        return success
+
 class OneToOneStableMatching(Protocol):
     def __init__(self, mode: str = 'node') -> None:
         super().__init__()
@@ -182,3 +191,4 @@ class OptimalSellingMechanism(Protocol):
                 continue
             success += node.send_data(channel.gains[node])
         return success
+
