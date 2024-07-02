@@ -51,9 +51,11 @@ class Channel:
         return self.__str__()
 
 class Network:
-    def __init__(self, num_nodes=10, per_user=True):
+    def __init__(self, num_nodes=10, per_user=True, match_before=False, keep_alive=True):
         self.num_nodes = num_nodes
         self.per_user  = per_user
+        self.match_before = match_before
+        self.keep_alive = keep_alive
         self.reset()
 
     def reset(self):
@@ -62,18 +64,24 @@ class Network:
 
     def harvesting_slot(self):
         for channel in self.channels:
-            energies = self.nodes[0].dist.rvs(size=self.num_nodes)
-            for i, node in enumerate(self.nodes):
-                node.energy = energies[i]
             channel.gains = channel.generate_gains()
+        energies = self.nodes[0].dist.rvs(size=self.num_nodes)
+        for i, node in enumerate(self.nodes):
+            node.energy = energies[i]
             
     def sending_slot(self, protocol) -> int:
-        return protocol.execute(self.sending_nodes().copy(), self.channels.copy())
+        if self.match_before:
+            return protocol.execute(self.nodes.copy(), self.channels.copy())
+        else:
+            return protocol.execute(self.sending_nodes().copy(), self.channels.copy())
     
     def create_messages(self, input_rate):
         for node in self.nodes:
             generated = random.uniform(0, 1) < (input_rate / self.num_nodes)
-            node.has_message = node.has_message or generated
+            if self.keep_alive:
+                node.has_message = node.has_message or generated
+            else:
+                node.has_message = generated
             
     def sending_nodes(self) -> List[Node]:
         return [node for node in self.nodes if node.has_message]

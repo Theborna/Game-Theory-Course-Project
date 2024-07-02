@@ -1,0 +1,127 @@
+,Input Rate,Throughput,Method
+0,0.0,0.0,One-to-One Stable Matching (Node) - Match Before
+1,0.5,0.4379166666666667,One-to-One Stable Matching (Node) - Match Before
+2,1.0,0.8395833333333333,One-to-One Stable Matching (Node) - Match Before
+3,1.5,1.1458333333333333,One-to-One Stable Matching (Node) - Match Before
+4,2.0,1.3858333333333333,One-to-One Stable Matching (Node) - Match Before
+5,2.5,1.6320833333333333,One-to-One Stable Matching (Node) - Match Before
+6,3.0,1.8229166666666667,One-to-One Stable Matching (Node) - Match Before
+7,3.5,2.0116666666666667,One-to-One Stable Matching (Node) - Match Before
+8,4.0,2.1758333333333333,One-to-One Stable Matching (Node) - Match Before
+9,4.5,2.3266666666666667,One-to-One Stable Matching (Node) - Match Before
+10,5.0,2.3829166666666666,One-to-One Stable Matching (Node) - Match Before
+11,5.5,2.53875,One-to-One Stable Matching (Node) - Match Before
+12,6.0,2.625,One-to-One Stable Matching (Node) - Match Before
+13,6.5,2.71125,One-to-One Stable Matching (Node) - Match Before
+14,7.0,2.79,One-to-One Stable Matching (Node) - Match Before
+15,7.5,2.901666666666667,One-to-One Stable Matching (Node) - Match Before
+16,8.0,2.9408333333333334,One-to-One Stable Matching (Node) - Match Before
+17,8.5,3.0229166666666667,One-to-One Stable Matching (Node) - Match Before
+18,9.0,3.11375,One-to-One Stable Matching (Node) - Match Before
+19,9.5,3.1233333333333335,One-to-One Stable Matching (Node) - Match Before
+20,10.0,3.158333333333333,One-to-One Stable Matching (Node) - Match Before
+21,0.0,0.0,One-to-One Stable Matching (Channel) - Match Before
+22,0.5,0.45666666666666667,One-to-One Stable Matching (Channel) - Match Before
+23,1.0,0.8558333333333333,One-to-One Stable Matching (Channel) - Match Before
+24,1.5,1.1370833333333332,One-to-One Stable Matching (Channel) - Match Before
+25,2.0,1.4141666666666666,One-to-One Stable Matching (Channel) - Match Before
+26,2.5,1.6229166666666666,One-to-One Stable Matching (Channel) - Match Before
+27,3.0,1.8270833333333334,One-to-One Stable Matching (Channel) - Match Before
+28,3.5,1.9854166666666666,One-to-One Stable Matching (Channel) - Match Before
+29,4.0,2.15375,One-to-One Stable Matching (Channel) - Match Before
+30,4.5,2.315,One-to-One Stable Matching (Channel) - Match Before
+31,5.0,2.41375,One-to-One Stable Matching (Channel) - Match Before
+32,5.5,2.5275,One-to-One Stable Matching (Channel) - Match Before
+33,6.0,2.631666666666667,One-to-One Stable Matching (Channel) - Match Before
+34,6.5,2.7425,One-to-One Stable Matching (Channel) - Match Before
+35,7.0,2.7954166666666667,One-to-One Stable Matching (Channel) - Match Before
+36,7.5,2.908333333333333,One-to-One Stable Matching (Channel) - Match Before
+37,8.0,2.9283333333333332,One-to-One Stable Matching (Channel) - Match Before
+38,8.5,2.9970833333333333,One-to-One Stable Matching (Channel) - Match Before
+39,9.0,3.06625,One-to-One Stable Matching (Channel) - Match Before
+40,9.5,3.15875,One-to-One Stable Matching (Channel) - Match Before
+41,10.0,3.2041666666666666,One-to-One Stable Matching (Channel) - Match Before
+42,0.0,0.0,One-to-Many Stable Matching - Match Before
+43,0.5,0.4925,One-to-Many Stable Matching - Match Before
+44,1.0,0.8729166666666667,One-to-Many Stable Matching - Match Before
+45,1.5,1.23875,One-to-Many Stable Matching - Match Before
+46,2.0,1.5779166666666666,One-to-Many Stable Matching - Match Before
+47,2.5,1.91125,One-to-Many Stable Matching - Match Before
+48,3.0,2.12625,One-to-Many Stable Matching - Match Before
+49,3.5,2.3670833333333334,One-to-Many Stable Matching - Match Before
+50,4.0,2.60125,One-to-Many Stable Matching - Match Before
+51,4.5,2.774583333333333,One-to-Many Stable Matching - Match Before
+52,5.0,2.9829166666666667,One-to-Many Stable Matching - Match Before
+53,5.5,3.1554166666666665,One-to-Many Stable Matching - Match Before
+54,6.0,3.296666666666667,One-to-Many Stable Matching - Match Before
+55,6.5,3.4854166666666666,One-to-Many Stable Matching - Match Before
+56,7.0,3.59375,One-to-Many Stable Matching - Match Before
+57,7.5,3.7129166666666666,One-to-Many Stable Matching - Match Before
+58,8.0,3.7625,One-to-Many Stable Matching - Match Before
+59,8.5,3.888333333333333,One-to-Many Stable Matching - Match Before
+60,9.0,4.0275,One-to-Many Stable Matching - Match Before
+61,9.5,4.163333333333333,One-to-Many Stable Matching - Match Before
+62,10.0,4.2475,One-to-Many Stable Matching - Match Before
+63,0.0,0.0,Optimal Selling Mechanism (Energy) - Match Before
+64,0.5,0.48291666666666666,Optimal Selling Mechanism (Energy) - Match Before
+65,1.0,0.8329166666666666,Optimal Selling Mechanism (Energy) - Match Before
+66,1.5,1.1654166666666668,Optimal Selling Mechanism (Energy) - Match Before
+67,2.0,1.4416666666666667,Optimal Selling Mechanism (Energy) - Match Before
+68,2.5,1.65875,Optimal Selling Mechanism (Energy) - Match Before
+69,3.0,1.88375,Optimal Selling Mechanism (Energy) - Match Before
+70,3.5,2.08625,Optimal Selling Mechanism (Energy) - Match Before
+71,4.0,2.275,Optimal Selling Mechanism (Energy) - Match Before
+72,4.5,2.4445833333333336,Optimal Selling Mechanism (Energy) - Match Before
+73,5.0,2.506666666666667,Optimal Selling Mechanism (Energy) - Match Before
+74,5.5,2.6745833333333335,Optimal Selling Mechanism (Energy) - Match Before
+75,6.0,2.845833333333333,Optimal Selling Mechanism (Energy) - Match Before
+76,6.5,2.9225,Optimal Selling Mechanism (Energy) - Match Before
+77,7.0,2.9716666666666667,Optimal Selling Mechanism (Energy) - Match Before
+78,7.5,3.0920833333333335,Optimal Selling Mechanism (Energy) - Match Before
+79,8.0,3.1391666666666667,Optimal Selling Mechanism (Energy) - Match Before
+80,8.5,3.1575,Optimal Selling Mechanism (Energy) - Match Before
+81,9.0,3.232083333333333,Optimal Selling Mechanism (Energy) - Match Before
+82,9.5,3.3366666666666664,Optimal Selling Mechanism (Energy) - Match Before
+83,10.0,3.3779166666666667,Optimal Selling Mechanism (Energy) - Match Before
+84,0.0,0.0,Optimal Selling Mechanism (Probability) - Match Before
+85,0.5,0.49666666666666665,Optimal Selling Mechanism (Probability) - Match Before
+86,1.0,0.9095833333333333,Optimal Selling Mechanism (Probability) - Match Before
+87,1.5,1.27,Optimal Selling Mechanism (Probability) - Match Before
+88,2.0,1.5916666666666666,Optimal Selling Mechanism (Probability) - Match Before
+89,2.5,1.92375,Optimal Selling Mechanism (Probability) - Match Before
+90,3.0,2.1991666666666667,Optimal Selling Mechanism (Probability) - Match Before
+91,3.5,2.4629166666666666,Optimal Selling Mechanism (Probability) - Match Before
+92,4.0,2.723333333333333,Optimal Selling Mechanism (Probability) - Match Before
+93,4.5,2.901666666666667,Optimal Selling Mechanism (Probability) - Match Before
+94,5.0,3.1395833333333334,Optimal Selling Mechanism (Probability) - Match Before
+95,5.5,3.30875,Optimal Selling Mechanism (Probability) - Match Before
+96,6.0,3.51875,Optimal Selling Mechanism (Probability) - Match Before
+97,6.5,3.63125,Optimal Selling Mechanism (Probability) - Match Before
+98,7.0,3.8116666666666665,Optimal Selling Mechanism (Probability) - Match Before
+99,7.5,3.9295833333333334,Optimal Selling Mechanism (Probability) - Match Before
+100,8.0,4.064583333333333,Optimal Selling Mechanism (Probability) - Match Before
+101,8.5,4.17125,Optimal Selling Mechanism (Probability) - Match Before
+102,9.0,4.340416666666667,Optimal Selling Mechanism (Probability) - Match Before
+103,9.5,4.445833333333334,Optimal Selling Mechanism (Probability) - Match Before
+104,10.0,4.507916666666667,Optimal Selling Mechanism (Probability) - Match Before
+105,0.0,0.0,Random Access - Match Before
+106,0.5,0.41791666666666666,Random Access - Match Before
+107,1.0,0.7754166666666666,Random Access - Match Before
+108,1.5,1.0183333333333333,Random Access - Match Before
+109,2.0,1.24875,Random Access - Match Before
+110,2.5,1.4420833333333334,Random Access - Match Before
+111,3.0,1.5858333333333334,Random Access - Match Before
+112,3.5,1.69125,Random Access - Match Before
+113,4.0,1.82875,Random Access - Match Before
+114,4.5,1.9145833333333333,Random Access - Match Before
+115,5.0,2.00125,Random Access - Match Before
+116,5.5,2.0929166666666665,Random Access - Match Before
+117,6.0,2.1016666666666666,Random Access - Match Before
+118,6.5,2.2104166666666667,Random Access - Match Before
+119,7.0,2.2583333333333333,Random Access - Match Before
+120,7.5,2.3295833333333333,Random Access - Match Before
+121,8.0,2.3308333333333335,Random Access - Match Before
+122,8.5,2.359583333333333,Random Access - Match Before
+123,9.0,2.4225,Random Access - Match Before
+124,9.5,2.4945833333333334,Random Access - Match Before
+125,10.0,2.475,Random Access - Match Before
